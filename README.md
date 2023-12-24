@@ -26,7 +26,7 @@ When you’re ready to deploy to production, create a minified bundle with `yarn
 
 ## Creating an App
 
-**You’ll need to have Node 14 or later version on your local development machine** (but it’s not required on the server). You can use [nvm](https://github.com/creationix/nvm#installation) (macOS/Linux) or [nvm-windows](https://github.com/coreybutler/nvm-windows#node-version-manager-nvm-for-windows) to switch Node versions between different projects.
+**You’ll need to have Node 16 or later version on your local development machine** (but it’s not required on the server). You can use [nvm](https://github.com/creationix/nvm#installation) (macOS/Linux) or [nvm-windows](https://github.com/coreybutler/nvm-windows#node-version-manager-nvm-for-windows) to switch Node versions between different projects.
 
 **You'll also need Yarn on your local development machine**. This is because Create Eth App relies on Yarn
 Workspaces, a feature not supported by Npm.
@@ -125,7 +125,7 @@ yarn create eth-app my-eth-app --template compound
 - **Aimed at Experience Architects**: As Kames CG argues in [Ethereum Growth's Problem](https://medium.com/horizin/ethereums-growth-problem-5cab86734917), the Ethereum ecosystem is in
   a much greater need for top-notch product creators, not smart contract developers. Create Eth App does
   not enable a smart contract development environment, expecting you to import your own ABIs or build on top of
-  an established protocol like [Maker](https://makerdao.com), [Compound](https://compound.finance/) or [Sablier](https://sablier.finance)
+  an established protocol like [Maker](https://makerdao.com), [Compound](https://compound.finance/) or [Sablier](https://sablier.com)
 
 - **Not Reinventing The Wheel**: Under the hood, you use Create React App, one of the most popular and battle-tested frontend development
   environments.
@@ -163,15 +163,6 @@ But Ethereum is a large ecosystem. Here are a few common cases where you might w
 For alternatives to React in particular, read the [official Create React App
 documentation](https://github.com/facebook/create-react-app/blob/master/README.md#popular-alternatives).
 
-## Credits
-
-This project exists thanks to all the people who contributed:
-
-- [@PaulRBerg](https://github.com/paulrberg)
-- [@TomAFrench](https://github.com/TomAFrench)
-- [@KadenZipfel](https://github.com/kadenzipfel)
-- [@rnbrady](https://github.com/rnbrady)
-
 ## Acknowledgements
 
 We are grateful to the authors of existing related projects from which we drew inspiration:
@@ -182,6 +173,10 @@ We are grateful to the authors of existing related projects from which we drew i
 And also the Vue.js community for the CLI we used to generate our templates:
 
 - [@vue/cli](https://cli.vuejs.org/)
+
+## Contributors
+
+<a href="https://github.com/PaulRBerg/create-eth-app/graphs/contributors"><img src="https://contrib.rocks/image?repo=PaulRBerg/create-eth-app" /></a>
 
 ## License
 

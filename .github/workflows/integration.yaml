@@ -8,20 +8,16 @@ on:
     branches:
       - "develop"
       - "staging"
-  pull_request:
-    branches:
-      - "develop"
-      - "staging"
 
 jobs:
   integration:
     runs-on: "ubuntu-latest"
     steps:
       - name: "Check out the repo"
-        uses: "actions/checkout@v2"
+        uses: "actions/checkout@v3"
 
       - name: "Install Node.js"
-        uses: "actions/setup-node@v2"
+        uses: "actions/setup-node@v3"
         with:
           cache: "yarn"
           node-version: "16"
